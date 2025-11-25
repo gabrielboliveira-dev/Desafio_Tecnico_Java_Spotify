@@ -30,7 +30,6 @@ public class Playlist {
         this.name = name;
     }
 
-    // Método auxiliar para adicionar música (Clean Code)
     public void addSong(Song song) {
         this.songs.add(song);
     }
